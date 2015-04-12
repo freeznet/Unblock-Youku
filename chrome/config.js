@@ -35,10 +35,12 @@ unblock_youku.redirect_url_list = unblock_youku.common_urls;
 unblock_youku.header_extra_url_list = [
     // 'http://web-play.pptv.com/*',
     // 'http://web-play.pplive.cn/*',
+    'http://v.api.hunantv.com/*',
     'http://live.gslb.letv.com/*',
     'http://ac.qq.com/*',
     'http://*.ssports.com/*',
     'http://ssports.com/*',
+    'http://ssports.smgbb.cn/*',
     'http://www.bilibili.com/*',
     'http://interface.bilibili.com/*',
     'http://*.xiami.com/*',  // xiami is blocked in HK and TW

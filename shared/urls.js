@@ -28,6 +28,7 @@ unblock_youku.common_urls = [
     'http://www.tudou.com/outplay/goto/getTvcCode*',
     'http://www.tudou.com/tvp/alist.action*',
     'http://s.plcloud.music.qq.com/fcgi-bin/p.fcg*',
+    'http://i.y.qq.com/s.plcloud/fcgi-bin/p.fcg*',
     'http://hot.vrs.sohu.com/*',
     'http://live.tv.sohu.com/live/player*',
     'http://pad.tv.sohu.com/playinfo*',
@@ -43,6 +44,7 @@ unblock_youku.common_urls = [
     // 'http://nl.rcd.iqiyi.com/apis/urc/*',
     'http://cache.video.qiyi.com/vms?*',
     'http://cache.vip.qiyi.com/vms?*',
+    'http://cache.video.qiyi.com/vp/*/*/?src=*',
 
     // cause oversea servers unusable?
     // 'http://interface.bilibili.tv/player*',
@@ -76,6 +78,7 @@ unblock_youku.common_urls = [
     'http://bobo.video.qq.com/getvinfo*',
     'http://flvs.video.qq.com/getvinfo*',
     'http://bkvv.video.qq.com/getvinfo*',
+    'http://info.zb.qq.com/?*',
 
     'http://geo.js.kankan.xunlei.com/*',
     'http://web-play.pptv.com/*',
@@ -100,7 +103,7 @@ unblock_youku.common_urls = [
     'http://v.iask.com/v_play.php*',
     'http://v.iask.com/v_play_ipad.cx.php*',
     'http://tv.weibo.com/player/*',
-    'http://wtv.v.iask.com/*.m3u8',
+    'http://wtv.v.iask.com/*.m3u8*',
     'http://wtv.v.iask.com/mcdn.php',
     'http://video.sina.com.cn/interface/l/u/getFocusStatus.php*',
 
@@ -117,7 +120,9 @@ unblock_youku.common_urls = [
     'http://api.letv.com/mms/out/video/play*',
     'http://api.letv.com/mms/out/common/geturl*',
     'http://api.letv.com/geturl*',
+    'http://api.letv.com/api/geturl*',
     'http://live.gslb.letv.com/gslb?*',
+    'http://static.itv.letv.com/api*',
     'http://ip.apps.cntv.cn/js/player.do*',
     'http://vdn.apps.cntv.cn/api/get*',
     'http://vdn.live.cntv.cn/api2/liveHtml5.do?channel=pa://cctv_p2p_hdcctv5*',
@@ -127,6 +132,7 @@ unblock_youku.common_urls = [
     'http://vip.sports.cntv.cn/check.do*',
     'http://vip.sports.cntv.cn/play.do*',
     'http://vip.sports.cntv.cn/servlets/encryptvideopath.do*',
+    'http://211.151.157.15/*'
 ];
 
 // only for chrome extension
@@ -184,6 +190,7 @@ unblock_youku.server_whitelist_urls = [
 unblock_youku.server_extra_urls = [
     // for Mobile apps    // Video apps
     'http://a.play.api.3g.youku.com/common/v3/play?*',
+    'http://i.play.api.3g.youku.com/common/v3/play?*',
     'http://i.play.api.3g.youku.com/common/v3/hasadv/play?*',
     'http://api.3g.youku.com/layout*',
     'http://api.3g.youku.com/v3/play/address*',
@@ -231,6 +238,7 @@ unblock_youku.server_extra_urls = [
     'http://3g.music.qq.com/*',
     'http://mqqplayer.3g.qq.com/*',
     'http://proxy.music.qq.com/*',
+    'http://proxymc.qq.com/*',
     'http://ip2.kugou.com/check/isCn/*',
     'http://ip.kugou.com/check/isCn/*',
     'http://client.api.ttpod.com/global*',
@@ -244,6 +252,7 @@ unblock_youku.server_extra_urls = [
     'http://www.xiami.com/web/spark*',
     'http://www.xiami.com/web/*?*xiamitoken=*',
     'http://spark.api.xiami.com/api?*method=AuthIp*',
+    'http://spark.api.xiami.com/api?*method=Start.init*',
     'http://spark.api.xiami.com/api?*method=Songs.getTrackDetail*',
     'http://spark.api.xiami.com/api?*method=Songs.detail*',
     // for PC Clients only
